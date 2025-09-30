@@ -4,9 +4,10 @@ var count=localStorage.getItem("count",0);
 const Todo = () => {
     const [todos,setTodo] = useState([]);
     const inputRef = useRef();
-    
+
     const addTodo = ()=>{
         setTodo([...todos,{id:count++,task:inputRef.current.value,isCompleted:false}])
+        inputRef.current.value="";
         localStorage.setItem("count",count);
     }
 
