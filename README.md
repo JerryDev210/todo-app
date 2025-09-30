@@ -1,16 +1,71 @@
-# React + Vite
+# 📝 To-Do App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and simple To-Do application built with React and Vite. Made it as Part of my React Journey.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ➕ Add new tasks
+- ✅ Mark tasks as completed
+- 🗑️ Delete tasks
 
-## React Compiler
+## 🚀 Getting Started
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Prerequisites
 
-## Expanding the ESLint configuration
+- Node.js
+- npm 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/JerryDev210/todo-app
+   cd todo-app
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and navigate to `http://localhost:5173`
+
+## 🛠️ Built With
+
+- **React** - Frontend library
+- **Vite** - Build tool and development server
+- **CSS3** - Styling with modern design
+- **ESLint** - Code linting
+
+## 📁 Project Structure
+
+```
+src/
+├── Components/
+│   ├── Todo.jsx          # Main todo container component
+│   └── TodoItem.jsx      # Individual todo item component
+├── assets/              # Icons 
+├── App.jsx             # Main app component
+├── App.css             # Main styling
+├── main.jsx            # Entry point
+```
+
+## 🎯 Usage
+
+1. **Add a Task**: Type your task in the input field and click the "add" button
+2. **Complete a Task**: Click on the checkbox to mark a task as completed
+3. **Delete a Task**: Click on the delete(cross) icon to remove a task
+
+## 📧 Contact
+
+Feel free to reach out if you have any questions or suggestions! \
+📧 ramkumar1021@zohomail.in
+
+---
+
+Built with ❤️ using React and Vite
